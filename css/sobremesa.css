@@ -102,3 +102,34 @@ h5{
     font-family:Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
 }
 /*--------footer FINAL-------*/
+/* responsivo */
+@media screen and (max-width: 500px) {
+    .navbar{
+        display: block;
+    }
+    .logo{
+        display: block;
+    }
+    .logo img{
+        display: block;
+    }
+    .textoheader{
+        text-align: end;
+        display: block;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+        display: block;
+    }
+    .logo{
+        display: block;
+    }
+    .logo img{
+        display: block;
+    }
+    .textoheader{
+        text-align: end;
+        display: block;
+    }
+}
