@@ -36,12 +36,11 @@ main{
     text-align: center;
 }
 .numero img,p{
-    margin: 5px;
+    margin: 10px;
     font-size: 25px;
     display: inline-block;
 }
 #telefone{
-    
     background-color:white;
     display: inline-block;
 }
