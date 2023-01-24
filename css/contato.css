@@ -97,6 +97,7 @@ main{
     text-align: center;
 }
 /*----------footer FINAL----------*/
+/* responsivo */
 @media screen and (max-width: 500px) {
     #item{
         display: block;
