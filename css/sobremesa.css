@@ -211,3 +211,47 @@ h5{
         display: block;
     }
 }
+@media screen and (max-width: 500px) {
+    .navbar{
+        display: block;
+    }
+    .logo{
+        display: block;
+    }
+    .logo img{
+        color: rgb(58, 88, 40);
+        display: block;
+    }
+    .textoheader{
+        text-align: end;
+        display: block;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+        display: block;
+    }
+    .logo{
+        display: block;
+    }
+    .logo img{
+        display: block;
+    }
+    .textoheader{
+        text-align: end;
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    #footer_content{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 426px) {
+    #footer_content{
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem 2rem;
+    }
+    
+}
